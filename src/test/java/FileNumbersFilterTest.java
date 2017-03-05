@@ -57,10 +57,5 @@ public class FileNumbersFilterTest {
         verify(writer).close();
         verify(bufferedReader).close();
     }
-    /*
-    Za pomocą tego nie możliwe jest pisanie w TDD - nie da tak zacząć pisać testu, nie można za pomocą TDD dojść
-    do takiego czegoś
-    Bardzo dużo czasu mi pochłonęło aby zweryfikować czy test działa, bo się wywalał
-    Bardzo dużeo czasu mi zajeło przygotowanie testu i danych testowych - to jest męczące wręcz
-     */
+
 }
